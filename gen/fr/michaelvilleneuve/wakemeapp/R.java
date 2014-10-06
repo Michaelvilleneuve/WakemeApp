@@ -1091,7 +1091,6 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_search=0x7f050043;
         public static final int action_settings=0x7f05003e;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
@@ -1117,6 +1116,7 @@ containing a value of this type.
         public static final int item2=0x7f050040;
         public static final int item3=0x7f050041;
         public static final int item4=0x7f050042;
+        public static final int item5=0x7f050043;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
@@ -1199,15 +1199,25 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_list=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int activity_second_activity=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int account_activity=0x7f030018;
+        public static final int activity_list=0x7f030019;
+        public static final int activity_main=0x7f03001a;
+        public static final int activity_second_activity=0x7f03001b;
+        public static final int alarm_activity=0x7f03001c;
+        public static final int list_activity=0x7f03001d;
+        public static final int search_activity=0x7f03001e;
+        public static final int settings_activity=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
-        public static final int list=0x7f0c0000;
-        public static final int main=0x7f0c0001;
-        public static final int second_activity=0x7f0c0002;
+        public static final int account_activity=0x7f0c0000;
+        public static final int alarm_activity=0x7f0c0001;
+        public static final int list=0x7f0c0002;
+        public static final int list_activity=0x7f0c0003;
+        public static final int main=0x7f0c0004;
+        public static final int search_activity=0x7f0c0005;
+        public static final int second_activity=0x7f0c0006;
+        public static final int settings_activity=0x7f0c0007;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1257,8 +1267,13 @@ containing a value of this type.
         public static final int hello_world=0x7f0a0014;
         public static final int nom_accueil=0x7f0a000f;
         public static final int password_accueil=0x7f0a000e;
+        public static final int title_activity_account_activity=0x7f0a0017;
+        public static final int title_activity_alarm_activity=0x7f0a0016;
         public static final int title_activity_list=0x7f0a0011;
+        public static final int title_activity_list_activity=0x7f0a0018;
+        public static final int title_activity_search_activity=0x7f0a001a;
         public static final int title_activity_second_activity=0x7f0a0013;
+        public static final int title_activity_settings_activity=0x7f0a0019;
     }
     public static final class style {
         /** 

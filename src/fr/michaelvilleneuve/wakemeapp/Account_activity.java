@@ -11,6 +11,7 @@ public class Account_activity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.account_activity);
+		setTitle("Mon Compte");
 	}
 
 	@Override

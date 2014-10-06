@@ -11,6 +11,7 @@ public class Search_activity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.search_activity);
+		setTitle("Rechercher");
 	}
 
 	@Override

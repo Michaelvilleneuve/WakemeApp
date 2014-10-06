@@ -11,6 +11,7 @@ public class List_activity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_activity);
+		setTitle("Mes amis");
 	}
 
 	@Override

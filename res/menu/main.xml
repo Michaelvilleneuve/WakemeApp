@@ -7,5 +7,6 @@
     <item android:id="@+id/item2" android:visible="true" android:title="Mon compte"></item>
       <item android:id="@+id/item3" android:visible="true" android:title="Mes Amis"></item>
         <item android:id="@+id/item4" android:visible="true" android:title="Réglages"></item>
+         <item android:id="@+id/item5" android:visible="true" android:title="Rechercher"></item>
 
 </menu>

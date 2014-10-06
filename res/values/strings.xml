@@ -10,5 +10,10 @@
     <string name="title_activity_second_activity">Second_activity</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_search">Rechercher</string>
+    <string name="title_activity_alarm_activity">Alarm_activity</string>
+    <string name="title_activity_account_activity">Account_activity</string>
+    <string name="title_activity_list_activity">List_activity</string>
+    <string name="title_activity_settings_activity">Settings_activity</string>
+    <string name="title_activity_search_activity">Search_activity</string>
 
 </resources>

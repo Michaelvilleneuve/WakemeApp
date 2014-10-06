@@ -36,7 +36,46 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
         </activity>
-        
+        <activity
+            android:name=".Alarm_activity"
+            android:label="@string/title_activity_alarm_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Account_activity"
+            android:label="@string/title_activity_account_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".List_activity"
+            android:label="@string/title_activity_list_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Settings_activity"
+            android:label="@string/title_activity_settings_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Search_activity"
+            android:label="@string/title_activity_search_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
