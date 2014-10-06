@@ -7,7 +7,9 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="21" />
-	<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -26,6 +28,15 @@
             android:name=".ListActivity"
             android:label="@string/title_activity_list" >
         </activity>
+        <activity
+            android:name=".Second_activity"
+            android:label="@string/title_activity_second_activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fr.michaelvilleneuve.wakemeapp.MainActivity" />
+        </activity>
+        
     </application>
 
 </manifest>

@@ -1,19 +1,29 @@
 package fr.michaelvilleneuve.wakemeapp;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends ActionBarActivity {
-
+	public final static String EXTRA_MESSAGE = "someString";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    public void sendMessage(View view) {
+        // Do something in response to button
+    	Intent intent = new Intent(this, Second_activity.class);
+    	 EditText editText = (EditText) findViewById(R.id.edit_message);
+    	    String message = editText.getText().toString();
+    	    intent.putExtra(EXTRA_MESSAGE, message);
+    	    startActivity(intent);
+    }
+    // android:onClick="sendMessage"
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

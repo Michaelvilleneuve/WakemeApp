@@ -20,14 +20,14 @@
         android:hint="@string/password_accueil"
         android:inputType="textPassword" />
 
-    
-
 
     <requestFocus />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_send" />
+        android:text="@string/button_send"
+        android:onClick="sendMessage"
+         />
 
 </LinearLayout>

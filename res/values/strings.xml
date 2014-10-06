@@ -7,5 +7,7 @@
     <string name="action_settings">Réglages</string>
     <string name="title_activity_list">Listes</string>
     <string name="button_send">Me connecter</string>
+    <string name="title_activity_second_activity">Second_activity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
