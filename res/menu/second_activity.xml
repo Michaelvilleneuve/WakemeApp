@@ -1,12 +1,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="fr.michaelvilleneuve.wakemeapp.Second_activity" >
-
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never"/>
+    tools:context="fr.michaelvilleneuve.wakemeapp.MainActivity" >
+      
+       <!--   android:icon="@drawable/ic_action_search"-->
+      <item android:id="@+id/action_search"
+       
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/item1" android:visible="true" android:title="Mes alarmes"></item>
+    <item android:id="@+id/item2" android:visible="true" android:title="Mon compte"></item>
+      <item android:id="@+id/item3" android:visible="true" android:title="Mes Amis"></item>
+        <item android:id="@+id/item4" android:visible="true" android:title="Réglages"></item>
 
 </menu>
