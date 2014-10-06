@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wake Me App</string>
+    <string name="password_accueil">Mot de Passe</string>
+    <string name="nom_accueil">Utilisateur</string>
+    <string name="action_settings">Réglages</string>
+    <string name="title_activity_list">Listes</string>
+    <string name="button_send">Me connecter</string>
+
+</resources>
