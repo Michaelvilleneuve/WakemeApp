@@ -1,19 +1,26 @@
 package fr.michaelvilleneuve.wakemeapp;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TimePicker;
 
 public class MainActivity extends ActionBarActivity {
+	private TimePicker timePicker1;
 	public final static String EXTRA_MESSAGE = "someString";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ActionBar bar = getActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#e74c3c")));
     }
     public void sendMessage(View view) {
         // Do something in response to button

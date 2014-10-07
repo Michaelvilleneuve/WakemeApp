@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+	 <TextView 
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:text="Utilisateur : "
+      android:textStyle="normal"
+       android:textSize="30sp"
+      android:textColor="#2ecc71"
+      android:gravity="center"
+    />
 
 		<EditText
-		android:id="@+id/edit_message"
-		android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/nom_accueil" />
+		    android:id="@+id/edit_message"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.07"
+		    android:hint="@string/nom_accueil" />
 
-    <EditText
-        android:id="@+id/edit_password"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/password_accueil"
-        android:inputType="textPassword" />
+		<TextView 
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:text="Mot de Passe : "
+      android:textStyle="normal"
+      android:textColor="#2ecc71"
+      android:textSize="30sp"
+      android:gravity="center"
+    />
 
+		<EditText
+		    android:id="@+id/edit_password"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.06"
+		    android:ems="10"
+		    android:hint="@string/password_accueil"
+		    android:inputType="textPassword"
+		    android:maxHeight="1dp" />
 
     <requestFocus />
 

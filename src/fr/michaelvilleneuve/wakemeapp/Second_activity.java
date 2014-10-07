@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 public class Second_activity extends ActionBarActivity {
-
+	private ImageButton imageButton1;
+	private TimePicker timePicker1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -16,7 +20,8 @@ public class Second_activity extends ActionBarActivity {
 		setTitle("Accueil");
 		Intent intent = getIntent();
 		String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-		 if (message == "test") {
+		String password = "test"; 
+		 if (message == password) {
 			 TextView textView = new TextView(this);
 			 message = message .concat(" vous êtes désormais connecté");
 			    textView.setTextSize(20);
@@ -26,11 +31,11 @@ public class Second_activity extends ActionBarActivity {
 			    setContentView(textView);
 		 }
 		 else {
-			 TextView textView = new TextView(this);
-			 message = message .concat(" la connexion a échoué.");
-			    textView.setTextSize(20);
-			    textView.setText(message);
-			    setContentView(textView);
+			 
+			    imageButton1 = (ImageButton) findViewById(R.id.imageButton1);
+			    imageButton1.setVisibility(View.VISIBLE);
+			    timePicker1 = (TimePicker) findViewById(R.id.timePicker1);
+			    timePicker1.setVisibility(View.VISIBLE);
 		 }
 
 	}
